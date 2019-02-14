@@ -11,9 +11,10 @@ Used tech
   mvn clean install -- creates a .war file
   
   Deploy:
-  copy the .war to tomcat server under <tomcat_home>/webapps
-  go to the <tomcat_home>/bin
-  run ./startup.sh
-  check the logs under <tomcat_home>/logs/catalina.out
+ 1. copy the .war to tomcat server under <tomcat_home>/webapps
+ 2. go to the <tomcat_home>/bin
+ 3. run ./startup.sh
+ 4. check the logs under <tomcat_home>/logs/catalina.out
+ 5. http://localhost:8080 host for the server.
 
   
